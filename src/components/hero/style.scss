@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.hero{
+    background-color:black;
+    background-image: url("./hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    .h_heading{
+        position: relative;
+        padding: 5% 10%;
+        .button{
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+        .location{
+            padding-top: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+            padding-left: 10px;
+            margin-top: 3px;
+            margin-left: 4px;
+                background-color:#D4A05A;
+                // border: 2px solid #e0c075;
+                border-radius: 10px;
+                color: #000;
+                cursor: pointer;
+                font-size: 1.7rem;
+                font-weight: 700;
+                height: 55px;
+                // padding: 2% 3%;
+                width: 45%;
+                transition: all 0.3s ease-in;
+                &:hover{
+                    background-color: #e6ae65;
+                    border: none;
+                    font-size: 2rem;
+                    // transform: scale(1.05); 
+                    overflow: hidden;
+                }
+        }
+    }
+        h1{
+            .virtual{
+                font-size: 6rem;
+            }
+            color: rgb(231, 229, 229);
+            font-size: 4.5rem;
+            margin: auto;
+            margin-left: 100px;
+        }
+    }
+    .h_image{
+        margin-top: 20%;
+        margin-right: 10%;
+        transform: rotate(10deg);
+        overflow-y: hidden;
+        z-index: 2;
+        .g_image{
+            border: 20px solid white !important;
+        }
+    }
+    overflow-y: hidden;
+}
